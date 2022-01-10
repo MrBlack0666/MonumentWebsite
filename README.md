@@ -12,12 +12,14 @@ On this website "unlogged users" can only review:
   - monument details,
   - list of trips,
   - trip details.
+
 "Logged users" can do everything that unlogged users can do. Addictionally they can:
   - add new monument (but administrator must verify added monument),
   - rate monuments,
   - add images to monuments,
   - add titbits to monuments,
   - add new trip.
+
 "Administrators" can do everything that logged users can do. Addictionally they can:
   - confirm monuments added by unlogged users,
   - change users role,
