@@ -1,0 +1,86 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2b2b2b;
+    height: 50px;
+}
+
+.toolbar-logo {
+    margin-left: 20px;
+}
+
+.toolbar-logo a {
+    color: white;
+    text-decoration: none!important;
+    font-size: 26px;
+}
+.toolbar-logo a:hover,
+.toolbar-logo a:active {
+    color: white;
+    text-decoration: none!important;
+    font-size: 26px;
+}
+
+.toolbar-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.toolbar-nav-items {
+    margin-left: 10px;
+}
+
+.toolbar-nav-items a {
+    color: white;
+    text-decoration: none !important;
+}
+
+.toolbar-nav-items a:hover,
+.toolbar-nav-items a:active {
+    color: darkorange;
+}
+
+.logout {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.logout:hover,
+.logout:active {
+    color: darkorange!important;
+}
+
+.toolbar-nav-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar-nav-items li {
+    padding: 0 10px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .toolbar-nav-items {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar-button {
+        display: none;
+    }
+
+    .toolbar-logo {
+        margin-left: 0;
+    }
+}
